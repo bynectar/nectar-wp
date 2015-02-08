@@ -1,0 +1,8 @@
+[07-Aug-2011 19:51:50] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 73 bytes) in /home/bynectar/public_html/temp/includes/menu.inc on line 322
+[08-Aug-2011 20:38:14] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 71 bytes) in /home/bynectar/public_html/temp/includes/menu.inc on line 337
+[08-Aug-2011 20:39:24] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 71 bytes) in /home/bynectar/public_html/temp/includes/bootstrap.inc on line 761
+[08-Aug-2011 21:22:37] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 72 bytes) in /home/bynectar/public_html/temp/includes/menu.inc on line 3606
+[08-Aug-2011 21:22:41] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 84 bytes) in /home/bynectar/public_html/temp/includes/bootstrap.inc on line 2860
+[08-Aug-2011 21:23:25] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 88524 bytes) in /home/bynectar/public_html/temp/includes/cache.inc on line 418
+[08-Aug-2011 21:39:11] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 24 bytes) in /home/bynectar/public_html/temp/sites/all/modules/views/views.install on line 46
+[08-Aug-2011 21:39:22] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 30720 bytes) in /home/bynectar/public_html/temp/sites/all/modules/views/includes/handlers.inc on line 1207

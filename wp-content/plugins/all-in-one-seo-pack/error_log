@@ -1,0 +1,1 @@
+[14-Dec-2014 19:19:36] PHP Fatal error:  Call to undefined function plugin_dir_path() in /home/bynectar/public_html/wp-content/plugins/all-in-one-seo-pack/all_in_one_seo_pack.php on line 40

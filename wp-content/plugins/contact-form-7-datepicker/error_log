@@ -1,0 +1,5 @@
+[07-Jun-2014 08:30:33] PHP Fatal error:  Call to undefined function add_action() in /home/bynectar/public_html/wp-content/plugins/contact-form-7-datepicker/admin.php on line 6
+[07-Aug-2014 07:42:40] PHP Fatal error:  Call to undefined function add_action() in /home/bynectar/public_html/wp-content/plugins/contact-form-7-datepicker/admin.php on line 6
+[07-Aug-2014 07:44:26] PHP Fatal error:  Call to undefined function add_action() in /home/bynectar/public_html/wp-content/plugins/contact-form-7-datepicker/contact-form-7-datepicker.php on line 34
+[08-Aug-2014 23:32:23] PHP Fatal error:  Call to undefined function add_action() in /home/bynectar/public_html/wp-content/plugins/contact-form-7-datepicker/contact-form-7-datepicker.php on line 34
+[24-Jan-2015 05:17:28] PHP Fatal error:  Call to undefined function add_action() in /home/bynectar/public_html/wp-content/plugins/contact-form-7-datepicker/admin.php on line 6

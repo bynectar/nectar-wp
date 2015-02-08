@@ -1,0 +1,221 @@
+<!doctype html> 
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ --> 
+<!--[if lt IE 7 ]> <html class="no-js ie6" lang="en"> <![endif]--> 
+<!--[if IE 7 ]>    <html class="no-js ie7" lang="en"> <![endif]--> 
+<!--[if IE 8 ]>    <html class="no-js ie8" lang="en"> <![endif]--> 
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" lang="en"> <!--<![endif]--> 
+<head> 
+  <meta charset="utf-8"> 
+ 
+  <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+       Remove this if you use the .htaccess --> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+ 
+  <title>Nectar Floral Artisanry</title> 
+  <meta name="description" content=""> 
+  <meta name="author" content=""> 
+ 
+  <!-- Mobile viewport optimized: j.mp/bplateviewport --> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+ 
+  <!-- Place favicon.ico & apple-touch-icon.png in the root of your domain and delete these references --> 
+  <link rel="shortcut icon" href="/favicon.ico"> 
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png"> 
+ 
+ 
+  <!-- CSS: implied media="all" --> 
+    <link rel="stylesheet" href="css/screen.css" type="text/css" media="screen, projection"> 
+    <link rel="stylesheet" href="css/print.css" type="text/css" media="print">
+    <link rel="stylesheet" href="css/placeholder.css" type="text/css">
+ 
+  <!-- Uncomment if you are specifically targeting less enabled mobile browsers
+  <link rel="stylesheet" media="handheld" href="css/handheld.css?v=2">  --> 
+ 
+  <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects --> 
+<script src="js/modernizr-1.7.min.js"></script> 
+
+<script type="text/javascript" src="http://use.typekit.com/jrk1ios.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+<script type="text/javascript"> 
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+  function checkEmail(email) { 
+    var pattern = /^([a-zA-Z0-9_\.\-\+])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+    var emailVal = $("#" + email).val();
+    return pattern.test(emailVal);
+  }
+  $(function() {
+    $("#submitbutton").click(function() { 
+      
+      // First, disable the form from submitting
+      $('#subform').submit(function() { return false; });
+      
+      // Grab form action
+      var formAction = $("#subform").attr("action");
+      
+      // Hacking together id for email field
+      // Replace the xxxxx below:
+      // If your form action were http://mysiteaddress.createsend.com/t/r/s/abcde/, then you'd enter "abcde" below
+      var id = "qjdukk";
+      var emailId = id + "-" + id;
+      
+      // Validate email address with regex
+      if (!checkEmail(emailId)) {
+        alert("Please enter a valid email address");
+        return;
+      }
+      
+      // Serialize form values to be submitted with POST
+      var str = $("#subform").serialize();
+      
+      // Add form action to end of serialized data
+      // CDATA is used to avoid validation errors
+      //<![CDATA[
+      var serialized = str + "&action=" + formAction;
+      // ]]>
+      
+      // Submit the form via ajax
+      $.ajax({
+        url: "http://www.bynectar.com/proxy.php",
+        type: "POST",
+        data: serialized,
+        success: function(data){
+          // Server-side validation
+          if (data.search(/invalid/i) != -1) {
+            alert('The email address you supplied is invalid and needs to be fixed before you can subscribe to this list.');
+          }
+          else
+          {
+            $("#subform").fadeOut(); // If successfully submitted hides the form
+			$("#footconfirm").fadeIn("fast");  // Shows "Thanks for subscribing" div
+            $("#footconfirm").tabIndex = -1;
+			$(".pop").fadeIn(100).slideDown(300).delay(800);  // Shows "Alert" div
+            $(".pop").tabIndex = -1;
+            $("#footconfirm").focus(); // For screen reader accessibility
+            // Fire off Google Analytics fake pageview
+            //var pageTracker = _gat._getTracker("UA-XXXX-1");
+            //pageTracker._trackPageview("/newsletter_signup_foot");
+          }
+        }
+      });
+    });
+  });
+</script> 
+
+<script type="text/javascript">
+
+        function nameBox()
+        {
+                elem = document.getElementById("name");
+
+                if(elem.value == "Name")
+                {
+                        elem.value = "";
+                }
+        }
+
+        function nameBoxBlur()
+        {
+                elem = document.getElementById("name");
+
+                if(elem.value == "")
+                {
+                        elem.value = "Name";
+                }
+                
+        }
+        function emailBox()
+        {
+                elem = document.getElementById("qjdukk-qjdukk");
+
+                if(elem.value == "Email")
+                {
+                        elem.value = "";
+                }
+        }
+
+        function emailBoxBlur()
+        {
+                elem = document.getElementById("qjdukk-qjdukk");
+                                
+                if(elem.value == "")
+                {
+                        elem.value = "Email";
+                }
+        }
+        window.onload = init;
+
+</script>
+
+
+ 
+</head> 
+ 
+<body> 
+ 
+  <div id="wrapper"> 
+    <div id="main" role="main"> 
+		
+		<div class="container">
+			<div class="span-12 last" id="logo">
+				<img src="images/nlogolg.png" id="templogo">
+			</div>
+			<div class="span-4 push-4 last">
+				<div id="signup">
+					<h1><b><span class="slab">Vintage</span></b> / <b><span class="sans">Modern</span></b></h1>
+					<h2><span class="slab">Summer 2011</span></h2>
+					<h3 class="slab">Sign up here and find out first</h3>
+					
+					<div id="formbox">
+						<form action="http://jtd.createsend.com/t/r/s/qjdukk/" method="post" id="subform">
+						<div>
+						<input type="text" name="cm-name" id="name" value="Name" onclick="nameBox()" onblur="nameBoxBlur()" /><br />
+						<input type="text" name="cm-qjdukk-qjdukk" id="qjdukk-qjdukk" value="Email" onclick="emailBox()" onblur="emailBoxBlur()" /><br />
+						<span class="checkwrap"><label for="Planning a Wedding">Planning a Wedding? </label><input type="checkbox" name="cm-fo-bidkhj" id="cm1841223" value="1841223" /></span><br />
+						
+						<input id="submitbutton" type="submit" value="Send away!" />
+						</div>
+						</form>
+						<div id="footconfirm">
+							<h3 class="slab">Thanks for writing!</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr class="space">
+		</div>
+			
+    </div> 
+  </div> <!--! end of #container --> 
+ 
+ 
+  <!-- JavaScript at the bottom for fast page loading --> 
+ 
+  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary --> 
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script> 
+  <script>window.jQuery || document.write("<script src='js/jquery-1.5.1.min.js'>\x3C/script>")</script> 
+ 
+ 
+  <!-- scripts concatenated and minified via ant build script--> 
+  <script src="js/plugins.js"></script> 
+  <script src="js/script.js"></script> 
+  <!-- end scripts--> 
+ 
+ 
+  <!--[if lt IE 7 ]>
+    <script src="js/dd_belatedpng.js"></script>
+    <script>DD_belatedPNG.fix("img, .png_bg"); // Fix any <img> or .png_bg bg-images. Also, please read goo.gl/mZiyb </script>
+  <![endif]--> 
+ 
+ 
+  <!-- mathiasbynens.be/notes/async-analytics-snippet Change UA-XXXXX-X to be your site's ID --> 
+  <script> 
+    var _gaq=[["_setAccount","UA-XXXXX-X"],["_trackPageview"]];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+    g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
+    s.parentNode.insertBefore(g,s)}(document,"script"));
+  </script> 
+ 
+</body> 
+</html>

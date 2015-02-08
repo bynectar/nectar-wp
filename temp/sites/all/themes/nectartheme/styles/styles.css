@@ -1,0 +1,254 @@
+/* $Id: styles.css,v 1.1.2.2.2.1 2011/01/11 01:08:49 dvessel Exp $ */
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+.clearfix { display: inline-table; }
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* End hide from IE-mac */
+
+body{
+	background:url(../images/canvas.jpg);
+}
+
+/* LOGO */
+#logo{}
+#logo a{
+	border:none;
+}
+
+/* TYPOGRAPHY */
+
+.category-label{
+	background:#FA0;
+	color:#FF0;
+	padding:1px 2px;
+}
+a{text-decoration:none;}
+a:hover{text-decoration:none;}
+
+/* NAV */
+#nav{
+	text-align:center;
+	padding:15px 0 10px;
+}
+#nav li{
+}
+#nav #main-menu a{
+	color:#999;
+	font-family: myriad-pro-1,myriad-pro-2,sans-serif;
+	text-transform:uppercase;
+	font-size:1.2em;
+	padding:5px 10px;
+	background:rgba(0,0,0,.1);
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+}
+#nav #main-menu a:hover, #nav #main-menu a.active{
+	color:#222;
+	background:rgba(0,0,0,.2);
+}
+
+/* WRAPPER */
+.wrapper{
+	padding:0;
+	background:#FFF;
+	box-shadow:0 1px 4px #555;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+	border-top:#EEE dotted 2.5px;
+	margin-bottom:20px;
+}
+
+#main-region{
+}
+
+#content-region{
+}
+
+#featured-region{
+}
+
+/* SIDEBAR */
+.sidebar{
+	padding:0 10px;
+}
+.sidebar h2{
+	font-family: chaparral-pro-1,chaparral-pro-2,sans-serif;
+	margin:10px 0 0;
+	font-size:1.5em;
+	color:#FA0;
+}
+.sidebar ul,.sidebar ul li{
+	list-style:none;
+}
+.sidebar ul li a{
+	font-family: myriad-pro-1,myriad-pro-2,sans-serif;
+	color:#BBB;
+	font-weight:bold;
+	text-transform:uppercase;
+	display:block;
+}
+.sidebar ul li a:hover{
+	color:#222;
+	text-decoration:none;
+}
+
+/* GALLERY */
+#galleryviewer{
+	height:450px;
+	position:relative;
+	z-index:90;
+}
+#gallerystrip{
+}
+#gallerystrip .field-items{
+	position:relative;
+	z-index:80;
+}
+#gallerystrip .field-items .field-item{
+	position:absolute;
+	top:0;
+	left:0;
+}
+#gallerystrip .field-items .field-item img{
+	display:inline;
+	padding:0;
+	margin:0;
+}
+#galleryinfo{
+	position:absolute;
+	z-index:100;
+	bottom:20px;
+	left:20px;
+}
+#gallerytitle{
+	position:relative;
+	z-index:100;
+	background-color:#FA0;
+	background-image:url(../images/orangegrad.jpg);
+	background-position:top;
+	background-repeat:repeat-x;
+	margin:5px 0 0;
+	padding:0;
+	font-weight:normal;
+	box-shadow:0 1px 8px #000;
+}
+#galleryinfo h1{
+	color:#FFDB4D;
+	margin:0;
+	padding:5px 10px 0;
+	font-weight:100;
+}
+#galleryinfo h3{
+	color:#FFDB4D;
+	margin:0;
+	padding:0 10px 10px;
+	font-weight:100;
+}
+#galleryinfo h1 a{
+	color:#FFDB4D;
+}
+#galleryinfo h1 a:hover{
+	color:#FFF;
+}
+#galleryfrom{
+	position:relative;
+	z-index:90;
+	background:#FFF;
+	color:#FA0;
+	margin:0 0 0 10px;
+	padding:5px 10px 10px;
+	font-weight:normal;
+	box-shadow:0 1px 5px #000;
+	font-size:1.5em;
+}
+#galleryfrom:hover{
+	color:#FFDB4D;
+}
+
+/* ARTICLE */
+.article{
+	position:relative;
+}
+#articlehead{
+	position:relative;
+	margin-bottom:20px;
+}
+#articleinfo-teaser{
+	position:relative;
+	padding:10px;
+}
+#articleinfo-teaser h4{
+	margin:0;
+}
+#articleinfo-teaser h1{
+	margin:10px 0 0;
+}
+#articleinfo-teaser h1 a{
+	color:#FA0;
+	margin:0;
+	position:relative;
+}
+#articleinfo-teaser h5{
+	color:#BBB;
+	font-weight:bold;
+	margin:0;
+	position:relative;
+}
+#articleinfo{
+	background:#FA0;
+	position:absolute;
+	left:30px;
+	bottom:35px;
+	padding:10px;
+}
+#articleinfo h1{
+	color:#FF0;
+	margin:0;
+}
+#articleinfo h5{
+	color:#FFF;
+	font-weight:bold;
+	margin:0;
+}
+.node-article p{
+	font-size:1.1em;
+}
+
+/* Views Reset */
+.view .item-list{
+	list-style:none;
+	margin:0;
+	padding:0;
+	display:inline;
+}
+.view .item-list ul{
+	width:220px !important;
+	list-style:none;
+	margin:0;
+	padding:0;
+	display:inline;
+}
+.view .item-list li{
+	width:220px !important;
+	margin:0;
+	padding:0;
+	display:inline;
+}
+
+/* YOUR STORIES */
+.view-your-stories .node-story{
+	width:220px !important;
+	height:400px;
+	display:inline;
+	background:#F00;
+}

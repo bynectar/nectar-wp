@@ -1,0 +1,34 @@
+; $Id: ninesixty.info,v 1.1.2.5.4.2 2011/01/11 01:08:49 dvessel Exp $
+
+name = Nectartheme
+description = ByNectar.com	 theme using the 960 Grid System. See the "README.txt" file within the theme folder for more information.
+screenshot = images/screenshot.png
+core = 7.x
+engine = phptemplate
+
+; Stylesheets. Anything within the "framework" folder will be placed before all others.
+stylesheets[screen][] = styles/screen.css
+stylesheets[all][] = styles/ie.css
+stylesheets[print][] = styles/print.css
+
+; Theme specific styles. Any sub-themes should override this.
+stylesheets[all][] = styles/styles.css
+
+scripts[] = scripts.js
+
+regions[page_top]       = Page top
+regions[page_bottom]    = Page bottom
+regions[header]         = Header
+regions[search_box]     = Search Box
+regions[highlighted]    = Highlight
+regions[help]           = Help
+regions[content]        = Content
+regions[featured]		= Featured
+regions[main]			= Main
+regions[sidebar_first]  = Sidebar First
+regions[sidebar_second] = Sidebar Second
+regions[diptych_left]	= Diptych Left
+regions[diptych_right]	= Diptych right
+regions[footer]         = Footer
+regions[page_bottom]    = Page bottom
+

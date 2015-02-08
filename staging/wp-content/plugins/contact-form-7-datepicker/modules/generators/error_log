@@ -1,0 +1,3 @@
+[24-Feb-2014 09:34:41] PHP Fatal error:  Call to undefined function esc_html() in /home/bynectar/public_html/staging/wp-content/plugins/contact-form-7-datepicker/modules/generators/time.php on line 5
+[24-Feb-2014 10:14:42] PHP Fatal error:  Call to undefined function esc_html() in /home/bynectar/public_html/staging/wp-content/plugins/contact-form-7-datepicker/modules/generators/date.php on line 5
+[24-Feb-2014 11:25:21] PHP Fatal error:  Call to undefined function esc_html() in /home/bynectar/public_html/staging/wp-content/plugins/contact-form-7-datepicker/modules/generators/datetime.php on line 5

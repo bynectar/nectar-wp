@@ -1,0 +1,56 @@
+[13-Aug-2011 13:44:04] PHP Parse error:  syntax error, unexpected $end in /home/bynectar/test/wp-content/themes/nectar/functions.php on line 465
+[13-Aug-2011 13:44:27] PHP Parse error:  syntax error, unexpected $end in /home/bynectar/test/wp-content/themes/nectar/functions.php on line 390
+[13-Aug-2011 13:44:28] PHP Parse error:  syntax error, unexpected $end in /home/bynectar/test/wp-content/themes/nectar/functions.php on line 390
+[13-Aug-2011 14:43:26] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in /home/bynectar/test/wp-content/themes/nectar/functions.php on line 626
+[13-Aug-2011 14:44:14] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in /home/bynectar/test/wp-content/themes/nectar/functions.php on line 77
+[13-Aug-2011 14:44:16] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in /home/bynectar/test/wp-content/themes/nectar/functions.php on line 77
+[13-Aug-2011 18:02:00] PHP Parse error:  syntax error, unexpected $end in /home/bynectar/test/wp-content/themes/nectar/content.php on line 37
+[13-Aug-2011 19:05:29] PHP Parse error:  syntax error, unexpected $end in /home/bynectar/test/wp-content/themes/nectar/archive.php on line 95
+[14-Aug-2011 20:18:00] PHP Fatal error:  Cannot redeclare gallery_edit_columns() (previously declared in /home/bynectar/test/wp-content/themes/nectar/functions.php:87) in /home/bynectar/test/wp-content/themes/nectar/functions.php on line 326
+[14-Aug-2011 20:19:03] PHP Fatal error:  Cannot redeclare gallery_edit_columns() (previously declared in /home/bynectar/test/wp-content/themes/nectar/functions.php:87) in /home/bynectar/test/wp-content/themes/nectar/functions.php on line 326
+[14-Aug-2011 20:21:17] PHP Fatal error:  Cannot redeclare gallery_edit_columns() (previously declared in /home/bynectar/test/wp-content/themes/nectar/functions.php:87) in /home/bynectar/test/wp-content/themes/nectar/functions.php on line 122
+[15-Aug-2011 22:11:59] PHP Fatal error:  Cannot redeclare gallery_custom_columns() (previously declared in /home/bynectar/test/wp-content/themes/nectar/functions.php:97) in /home/bynectar/test/wp-content/themes/nectar/functions.php on line 482
+[15-Aug-2011 22:12:43] PHP Fatal error:  Cannot redeclare gallery_custom_columns() (previously declared in /home/bynectar/test/wp-content/themes/nectar/functions.php:97) in /home/bynectar/test/wp-content/themes/nectar/functions.php on line 482
+[16-Aug-2011 20:03:28] PHP Warning:  Invalid argument supplied for foreach() in /home/bynectar/test/wp-content/themes/nectar/page-flowers-101.php on line 44
+[16-Aug-2011 20:03:28] PHP Warning:  Invalid argument supplied for foreach() in /home/bynectar/test/wp-content/themes/nectar/page-flowers-101.php on line 44
+[16-Aug-2011 20:03:28] PHP Warning:  Invalid argument supplied for foreach() in /home/bynectar/test/wp-content/themes/nectar/page-flowers-101.php on line 44
+[16-Aug-2011 20:03:28] PHP Warning:  Invalid argument supplied for foreach() in /home/bynectar/test/wp-content/themes/nectar/page-flowers-101.php on line 44
+[16-Aug-2011 20:03:28] PHP Warning:  Invalid argument supplied for foreach() in /home/bynectar/test/wp-content/themes/nectar/page-flowers-101.php on line 44
+[16-Aug-2011 20:03:28] PHP Warning:  Invalid argument supplied for foreach() in /home/bynectar/test/wp-content/themes/nectar/page-flowers-101.php on line 44
+[16-Aug-2011 20:03:28] PHP Warning:  Invalid argument supplied for foreach() in /home/bynectar/test/wp-content/themes/nectar/page-flowers-101.php on line 44
+[16-Aug-2011 20:03:28] PHP Warning:  Invalid argument supplied for foreach() in /home/bynectar/test/wp-content/themes/nectar/page-flowers-101.php on line 44
+[16-Aug-2011 20:03:28] PHP Warning:  Invalid argument supplied for foreach() in /home/bynectar/test/wp-content/themes/nectar/page-flowers-101.php on line 44
+[16-Aug-2011 20:03:28] PHP Warning:  Invalid argument supplied for foreach() in /home/bynectar/test/wp-content/themes/nectar/page-flowers-101.php on line 44
+[16-Aug-2011 20:03:28] PHP Warning:  Invalid argument supplied for foreach() in /home/bynectar/test/wp-content/themes/nectar/page-flowers-101.php on line 44
+[16-Aug-2011 20:03:28] PHP Warning:  Invalid argument supplied for foreach() in /home/bynectar/test/wp-content/themes/nectar/page-flowers-101.php on line 44
+[16-Aug-2011 20:03:28] PHP Warning:  Invalid argument supplied for foreach() in /home/bynectar/test/wp-content/themes/nectar/page-flowers-101.php on line 44
+[16-Aug-2011 20:03:28] PHP Warning:  Invalid argument supplied for foreach() in /home/bynectar/test/wp-content/themes/nectar/page-flowers-101.php on line 44
+[16-Aug-2011 20:03:28] PHP Warning:  Invalid argument supplied for foreach() in /home/bynectar/test/wp-content/themes/nectar/page-flowers-101.php on line 44
+[16-Aug-2011 20:03:28] PHP Warning:  Invalid argument supplied for foreach() in /home/bynectar/test/wp-content/themes/nectar/page-flowers-101.php on line 44
+[16-Aug-2011 20:03:28] PHP Warning:  Invalid argument supplied for foreach() in /home/bynectar/test/wp-content/themes/nectar/page-flowers-101.php on line 44
+[16-Aug-2011 20:05:23] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/bynectar/test/wp-content/themes/nectar/page-flowers-101.php on line 40
+[16-Aug-2011 20:05:36] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/bynectar/test/wp-content/themes/nectar/page-flowers-101.php on line 40
+[16-Aug-2011 20:06:06] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/bynectar/test/wp-content/themes/nectar/page-flowers-101.php on line 40
+[16-Aug-2011 20:30:40] PHP Parse error:  syntax error, unexpected ',' in /home/bynectar/test/wp-content/themes/nectar/page-flowers-101.php on line 41
+[16-Aug-2011 20:35:58] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/bynectar/test/wp-content/themes/nectar/page-flowers-101.php on line 44
+[18-Aug-2011 21:21:22] PHP Parse error:  syntax error, unexpected T_ELSE in /home/bynectar/test/wp-content/themes/nectar/page-flowers-101.php on line 107
+[18-Aug-2011 21:21:35] PHP Parse error:  syntax error, unexpected T_ELSE in /home/bynectar/test/wp-content/themes/nectar/page-flowers-101.php on line 107
+[18-Aug-2011 21:21:48] PHP Parse error:  syntax error, unexpected T_ENDWHILE in /home/bynectar/test/wp-content/themes/nectar/page-flowers-101.php on line 112
+[18-Aug-2011 21:23:39] PHP Parse error:  syntax error, unexpected ':' in /home/bynectar/test/wp-content/themes/nectar/page-flowers-101.php on line 107
+[18-Aug-2011 21:37:08] PHP Parse error:  syntax error, unexpected T_LNUMBER, expecting ',' or ';' in /home/bynectar/test/wp-content/themes/nectar/page-flowers-101.php on line 102
+[27-Aug-2011 21:07:56] PHP Parse error:  syntax error, unexpected '[', expecting ')' in /home/bynectar/public_html/wp-content/themes/nectar/page-contact.php on line 39
+[05-Sep-2011 18:12:55] PHP Parse error:  syntax error, unexpected T_ENDWHILE in /home/bynectar/public_html/wp-content/themes/nectar/index.php on line 64
+[05-Sep-2011 18:13:21] PHP Parse error:  syntax error, unexpected T_ENDWHILE in /home/bynectar/public_html/wp-content/themes/nectar/index.php on line 64
+[05-Sep-2011 18:13:23] PHP Parse error:  syntax error, unexpected T_ENDWHILE in /home/bynectar/public_html/wp-content/themes/nectar/index.php on line 64
+[05-Sep-2011 18:13:42] PHP Parse error:  syntax error, unexpected T_ENDWHILE in /home/bynectar/public_html/wp-content/themes/nectar/index.php on line 64
+[05-Sep-2011 18:13:43] PHP Parse error:  syntax error, unexpected T_ENDWHILE in /home/bynectar/public_html/wp-content/themes/nectar/index.php on line 64
+[05-Sep-2011 18:21:23] PHP Parse error:  syntax error, unexpected T_ENDWHILE in /home/bynectar/public_html/wp-content/themes/nectar/index.php on line 64
+[06-Jan-2012 14:00:27] PHP Warning:  urlencode() expects parameter 1 to be string, array given in /home/bynectar/public_html/wp-content/themes/nectar/single-gallery.php on line 25
+[06-Jan-2012 14:00:27] PHP Warning:  urlencode() expects parameter 1 to be string, array given in /home/bynectar/public_html/wp-content/themes/nectar/single-gallery.php on line 25
+[06-Jan-2012 14:00:27] PHP Warning:  urlencode() expects parameter 1 to be string, array given in /home/bynectar/public_html/wp-content/themes/nectar/single-gallery.php on line 25
+[06-Jan-2012 14:00:27] PHP Warning:  urlencode() expects parameter 1 to be string, array given in /home/bynectar/public_html/wp-content/themes/nectar/single-gallery.php on line 25
+[22-Jan-2012 08:42:53] WordPress database error Can't DROP 'form_name_field_name_idx'; check that column/key exists for query ALTER TABLE `bn_cf7dbplugin_submits` DROP INDEX `form_name_field_name_idx` made by require_once, require_once, require_once, include_once, CF7DBPlugin_init, CF7DBPlugin->upgrade
+[22-Jan-2012 08:42:53] WordPress database error Duplicate key name 'field_name_idx' for query ALTER TABLE `bn_cf7dbplugin_submits` ADD INDEX `field_name_idx` ( `field_name` ) made by require_once, require_once, require_once, include_once, CF7DBPlugin_init, CF7DBPlugin->upgrade
+[15-Jan-2014 20:52:16] PHP Fatal error:  Cannot redeclare gallery_register() (previously declared in /home/bynectar/public_html/staging/wp-content/themes/nectarv2/functions.php:257) in /home/bynectar/public_html/staging/wp-content/themes/nectarv2/functions.php on line 478
+[02-Mar-2014 12:34:49] PHP Parse error:  syntax error, unexpected ')' in /home/bynectar/public_html/staging/wp-content/themes/nectarv2/content.php on line 33
+[02-Mar-2014 12:35:21] PHP Parse error:  syntax error, unexpected ')' in /home/bynectar/public_html/staging/wp-content/themes/nectarv2/content.php on line 33
